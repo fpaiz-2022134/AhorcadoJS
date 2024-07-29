@@ -1,0 +1,115 @@
+<!-- Programador: Franco Alejandro Paiz González -->
+<!-- Código Técnico: IN5AV-->
+<!-- Carnet: 2022134 -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="funciones.js"></script>
+    <title>Ahorcado</title>
+
+    <style>
+        
+        canvas {
+          border: 6px solid rgb(0, 155, 26);
+        }
+      </style>
+</head>
+<body  >
+    <header>
+       <h1>AHORCADO GAME</h1>
+        
+    </header>
+
+    <main>
+        <canvas id="dibujarCanva" width="300" height="300"></canvas>
+        <!-- <img id = "imagen" src="img/ahorcado.png" alt="Ahorcado" /> -->
+        <div>
+            <p id = "palabra_a_adivinar">
+                <span>F</span>
+                <span>R</span>
+                <span>A</span>
+                <span>N</span>
+                <span>C</span>
+                <span>O</span>
+            </p>
+
+        <!-- <button id = "jugar">Obtener palabra</button>  -->
+
+            <p id="resultado"></p> 
+            <div id="letras" style=" align-items: center;">
+                <button>A</button>
+                <button>B</button>
+                <button>C</button>
+                <button>D</button>
+                <button>E</button>
+                <button>F</button>
+                <button>G</button>
+                <button>H</button>
+                <button>I</button>
+                <button>J</button>
+                <button>K</button>
+                <button>L</button>
+                <button>M</button>
+                <button>N</button>
+                <button>Ñ</button>
+                <button>O</button>
+                <button>P</button>
+                <button>Q</button>
+                <button>R</button>
+                <button>S</button>
+                <button>T</button>
+                <button>U</button>
+                <button>V</button>
+                <button>W</button>
+                <button>X</button>
+                <button>Y</button>
+                <button>Z</button>
+            </div>
+
+            <p>Intentos restantes: <span id="intentos"></span></p>
+
+            <div align="center"><button id="reiniciar"> Jugar de Nuevo</button></div>
+            
+        </div>
+        <img src="img/ahorcado.png" width="500px" height="300px">
+
+        
+        
+
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foot">
+                <h4>Programmer</h4>
+                <p>Franco Paiz</p>
+
+            </div>
+            <div class="content-foot">
+                <h4>Phone</h4>
+                <p>44332211</p>
+
+            </div>
+            <div class="content-foot">
+                <h4>Email</h4>
+                <p>fralpaiz@gmail.com</p>
+
+            </div>
+            <div class="content-foot">
+                <h4>Location</h4>
+                <p>Villa Nueva, Guatemala</p>
+
+            </div>
+        </div>
+    </footer>
+    <script src="juego.js"></script>   
+    
+    
+</body>
+</html>
